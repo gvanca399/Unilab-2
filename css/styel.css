@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#E5E5E5;
+    color: #000000;
+    
+}
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+/* header */
+
+body header .innerHeader .menu{
+    padding: 30px 0;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+body header .innerHeader .menu .menu-list .menu-list-item {
+    display: inline;
+    margin-left: 66px;
+}
+body header .innerHeader .menu .menu-list .menu-list-item .menu-list-link{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+}
+/* main section */
+
+body section .container h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin: 70px 0;
+    }
+    body section .container .box{
+        display: flex;
+        justify-content: space-between;
+    
+    
+    }
+    body section .container .box .boxes{
+        width: 333px;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+    body section .container .box .boxes img{
+    width: 100%;
+    
+    }
+    
+    body section .container .box .boxes h4{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 0 17px 26px;
+    }
+    body section .container .box .boxes p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        padding: 0 5px 15px 26px;
+    }
+    body section .container .box .boxes button{
+        position: absolute;
+        cursor: pointer;
+        width: 118px;
+        top: 757px;
+        margin-left: 215px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        padding: 6px ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* contact page */
+
+body main address .forcontact{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #7D0000;
+    margin: 112px 0 132px 0;
+}
+body main address ul{
+    margin-left: 206px;
+}
+body main address ul li{
+    margin-bottom: 32px;
+}
+body main address ul li a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}
+body .about h1{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    margin: 112px 0 132px 0;
+    color: #7D0000;
+}
+body .about p{
+    margin: 0 0 60px 175px;
+    width: 775px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 165%;
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+body .about h5{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-left:175px;
+    color: #000000;
+}
